@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Movie Recommendation App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/3.5.0/remixicon.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1><span>Cine</span>Picks</h1>
+            <form id="search-form">
+                <input type="text" id="search-input" placeholder="Search for movies...">
+                <select id="genre-select">
+                    <!-- Genre options will be populated here by JS -->
+                </select>
+                <button class="btn" type="submit"><i class="ri-search-fill"></i></button>
+            </form>
+            
+        </div>
+    </header>
+
+  
+
+    <main>
+        <section id="movie-grid" class="container">
+            <!-- Movie cards will be dynamically inserted here -->
+        </section>
+    </main>
+
+    <footer>
+        <div class="website">
+            <p><i class="ri-movie-2-fill"></i> Recommend Free website</p>
+            <a href="https://www.goojara.to/">Goojara</a>
+            <a href="https://realcouchtuner.com/">Couch Tuner</a>
+            <a href="https://tubitv.com/home">Tubi TV</a>
+            <a href="https://www.imdb.com/tv/">IMDB TV</a>
+        </div>
+        <br>
+        <div class="container">
+            <p>John_biruk &copy; 2024  Movie Recommendation App(CinePicks)</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
